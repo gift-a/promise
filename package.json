@@ -15,8 +15,5 @@
   "bugs": {
     "url": "https://github.com/gift-a/promise/issues"
   },
-  "homepage": "https://github.com/gift-a/promise#readme",
-  "dependencies": {
-    "firebase": "^4.11.0"
-  }
+  "homepage": "https://github.com/gift-a/promise#readme"
 }

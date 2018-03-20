@@ -10,11 +10,9 @@
 </head>
 
 <body>
-  <input type="file" id="input">
+  <progress value="0" max="100" id="uploader">0%</progress><br/>
+  <input type="file" id="input" value="upload">
   <button id="btn">click</button>
-
-
-
 
   <script src="https://www.gstatic.com/firebasejs/4.11.0/firebase.js"></script>
   <script>
@@ -24,7 +22,7 @@
       authDomain: "myproject-8daba.firebaseapp.com",
       databaseURL: "https://myproject-8daba.firebaseio.com",
       projectId: "myproject-8daba",
-      storageBucket: "",
+      storageBucket: "myproject-8daba.appspot.com",
       messagingSenderId: "450185217096"
     };
     firebase.initializeApp(config);
