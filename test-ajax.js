@@ -19,7 +19,9 @@ input.addEventListener("change", e => {
       uploader.value = persentage;
     },
     function error(err) {},
-    function complete() {}
+    function complete() {
+      //
+    }
   );
 });
 
